@@ -28,15 +28,7 @@ jobs:
           AFFILIATE_ID: ${{ secrets.AFFILIATE_ID }}
           SITE_NAME: ${{ secrets.SITE_NAME }}
         working-directory: scripts
-        run: python3 main.py --keyword "素人" --count 5
-
-      - name: Generate articles (ハメ撮り)
-        env:
-          API_ID: ${{ secrets.API_ID }}
-          AFFILIATE_ID: ${{ secrets.AFFILIATE_ID }}
-          SITE_NAME: ${{ secrets.SITE_NAME }}
-        working-directory: scripts
-        run: python3 main.py --keyword "ハメ撮り" --count 5
+        run: python3 main.py --keyword "素人" --count 1
 
       - name: Commit and push
         run: |
