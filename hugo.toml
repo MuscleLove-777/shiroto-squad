@@ -1,0 +1,95 @@
+baseURL = "https://musclelove-777.github.io/shiroto-squad/"
+languageCode = "ja"
+defaultContentLanguage = "ja"
+title = "シロウト発掘隊 | 素人・ハメ撮りAV厳選レビュー"
+theme = "PaperMod"
+paginate = 10
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[sitemap]
+  changefreq = "daily"
+  priority = 0.5
+
+[params]
+  env = "production"
+  description = "素人・ハメ撮り系AV作品を毎日厳選。リアルな興奮をサンプル動画付きでお届け"
+  author = "シロウト発掘隊"
+  images = ["https://musclelove-777.github.io/shiroto-squad/favicon.svg"]
+  keywords = ["素人 AV おすすめ", "ハメ撮り AV ランキング", "素人 ナンパ", "個人撮影 AV", "素人 新作", "ハメ撮り 人妻", "素人 巨乳", "ナンパ AV"]
+  defaultTheme = "dark"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = false
+  TocOpen = false
+  comments = false
+
+  [params.homeInfoParams]
+    Title = "シロウト発掘隊"
+    Content = "素人・ハメ撮り作品を毎日発掘！リアルなエロスをサンプル動画でチェック！"
+
+  [[params.socialIcons]]
+    name = "x-twitter"
+    url = "https://x.com/MuscleGirlLove7"
+
+  [[params.socialIcons]]
+    name = "linktree"
+    url = "https://linktr.ee/ILoveMyCats"
+
+[params.assets]
+  favicon = "favicon.svg"
+  favicon16x16 = "favicon.svg"
+  favicon32x32 = "favicon.svg"
+  apple_touch_icon = "favicon.svg"
+  safari_pinned_tab = "favicon.svg"
+
+[params.cover]
+  hidden = false
+  hiddenInList = false
+  hiddenInSingle = false
+  linkFullImages = true
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[[menus.main]]
+  name = "検索"
+  url = "/search/"
+  weight = 10
+
+[[menus.main]]
+  name = "カテゴリ"
+  url = "/categories/"
+  weight = 20
+
+[[menus.main]]
+  name = "タグ"
+  url = "/tags/"
+  weight = 30
+
+[[menus.main]]
+  name = "アーカイブ"
+  url = "/archives/"
+  weight = 40
