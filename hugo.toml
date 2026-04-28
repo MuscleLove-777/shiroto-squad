@@ -3,7 +3,8 @@ languageCode = "ja"
 defaultContentLanguage = "ja"
 title = "シロウト発掘隊 | 素人・ハメ撮りAV厳選レビュー"
 theme = "PaperMod"
-paginate = 10
+[pagination]
+  pagerSize = 20
 
 enableRobotsTXT = true
 buildDrafts = false
